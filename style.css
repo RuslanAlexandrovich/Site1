@@ -1,0 +1,118 @@
+h5{
+    margin-bottom: 0;
+}
+.logo{
+    width: 70px;
+}
+.button1{
+    min-width: 100px;
+    height: 40px;
+    padding: 0 0;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+}
+.btn_profile{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.search{
+    height: 50px;
+}
+#inp1{
+    flex-basis: 90%;
+    margin-left: 15px;
+}
+#inp_select{
+    flex-basis: 90%;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    background-color: rgb(30, 157, 242);
+    color: white;
+}
+.size{
+    height: 100px;
+    position: relative;
+}
+.img_foot{
+    width: 50px;
+}
+.foot_text_1 ul{
+    list-style-type: none;
+    margin: 0 auto;
+}
+.foot_text_1 ul a{
+    text-decoration: none;
+}
+@media screen and (max-width:1200px) {
+    .foot_text_1 ul{
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width:992px) {
+    .foot_text_1 ul{
+        padding: 10px 0;
+    }
+}
+.fa-magnifying-glass, .fa-location-dot {
+    @media screen and (max-width: 768px){
+      &::before, &::after{
+        display: none;
+      }
+    }
+}
+  @media screen and (max-width:768px) {
+    #inp1{
+        margin-left: 0!important;
+    }
+    .search{
+        height: 120px;
+    }
+    .foot_text_1 ul{
+        padding: 10px 0;
+    }
+    .search i{
+        display: none;
+    }
+  }
+  @media screen and (max-width:576px) {
+    .logo_text{
+        display: none;
+    }
+    .size::after{
+        content: ">";
+        position: absolute;
+        top: 25px;
+        right: 10px;
+        font-size: 30px;
+    }
+    .container{
+        padding: 0 80px;
+    }
+    .foot_text_1 ul{
+        padding: 10px 0;
+    }
+  }
+  @media(max-width:394px){
+    .container{
+        padding: 0 30px!important;
+        min-width: 300px;
+    }
+    .container-fluid{
+        min-width: 300px;
+    }
+    .logo{
+        width: 50px!important;
+    }
+    .ico_profile{
+        display: none;
+    }
+    .button1{
+        margin-right: 10px;
+    }
+    .foot_text_1 ul{
+        padding: 10px 0;
+    }
+  }
